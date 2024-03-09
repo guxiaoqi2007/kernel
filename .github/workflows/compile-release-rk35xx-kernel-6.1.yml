@@ -4,7 +4,7 @@
 # Copyright (C) 2023 https://github.com/ophub/kernel
 #==========================================================================
 
-name: Compile release rk35xx kernel
+name: Compile release rk35xx kernel 6.1
 
 on:
   repository_dispatch:
@@ -26,7 +26,7 @@ on:
         type: choice
         options:
           - 5.10.1
-          - 6.1.47
+          - 6.1.43
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
