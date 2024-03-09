@@ -18,7 +18,7 @@ on:
         options:
           - unifreq/linux-5.10.y-rk35xx
           - hellotheasia/linux-5.10.y-rk35xx
-          - guxiaoqi2007/linux-rockchip@rk-6.1-rkr1
+          - guxiaoqi2007/linux-rockchip@rk-5.10-rkr6
       kernel_version:
         description: "Select kernel version"
         required: false
